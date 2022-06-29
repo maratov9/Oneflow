@@ -1,0 +1,29 @@
+.btn {
+	display: inline-block;
+	padding: 12px 17px;
+	border: 1px solid#ffd063;
+	border-radius: 4px;
+	font-size: 17px;
+	color: #013a4c;
+	background-color: #ffd063;
+	transition: all 0.4s linear;
+	&:hover {
+		background-color: #013a4c;
+		border: 1px solid#013a4c;
+		transition: all 0.4s linear;
+		color: #fff;
+	}
+	@media (max-width: 992px) {
+		padding: 10px 12px;
+	}
+}
+.btn-white {
+	font-size: 13px;
+	&:hover {
+		background-color: #fff;
+		border: 1px solid#013a4c33;
+	}
+	@media (max-width: 992px) {
+		padding: 10px 12px;
+	}
+}
